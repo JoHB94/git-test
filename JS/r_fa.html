@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random_fashion</title>
+
+    <style>
+        body { background-color : linen;}
+        h3 {text-align: center;}
+        div {text-align: center;}
+    </style>
+
+
+</head>
+
+<body>
+
+    <script>
+        var sh = new Array();
+        sh[0] = '검정반팔';
+        sh[1] = '흰 긴팔';
+        sh[2] = '회색 맨투맨';
+        sh[3] = '체크남방';
+        sh[4] = '폴라티';
+        sh[5] = '후드티';
+        sh[6] = '하프집업';
+        console.log(sh);
+
+        var sh_src = new Array();
+        sh_src[0] = 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fcv2TuG%2FbtqCNafeZnp%2FBgi2MC264GkNGWDMckIj41%2Fimg.png';
+        sh_src[1] = 'https://image.msscdn.net/images/goods_img/20210106/1738546/1738546_1_500.jpg?t=20210106181859';
+        sh_src[2] = 'https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/82709786815761-b68b745b-8c65-4ec0-a92d-dc1aab31cfba.jpg';
+        sh_src[3] = 'https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2020/01/06/16/4/5c3aef17-20ac-4300-a2d1-069140dbce46.jpg';
+        sh_src[4] = 'https://wooilsin.co.kr/web/product/extra/big/202111/ee64f3680d6d317e84c9a4fd3ce35690.jpg';
+        sh_src[5] = 'https://image.msscdn.net/images/goods_img/20210924/2144048/2144048_1_500.jpg?t=20210924100215';
+        sh_src[6] = 'https://image.msscdn.net/images/goods_img/20200824/1560932/1560932_3_500.jpg?t=20220802114040';
+
+        console.log(sh_src);
+        function arrPush() {
+            let r_1 = Math.floor(Math.random() * 7);
+            console.log(r_1);
+            let random = sh[r_1];
+            let random2 = sh_src[r_1];
+            document.querySelector('#u_c').innerText.random;
+            document.querySelector('#u_c_src').src = random2;
+            return sh[random];
+            return sh_src[random2];
+
+        }
+    </script>
+    <script>
+        var pts = new Array();
+        pts[0] = '검정 와이드 슬랙스';
+        pts[1] = '회색 스웻 팬츠';
+        pts[2] = '크림 치노팬츠';
+        pts[3] = '중청 데님팬츠';
+        pts[4] = '생지 데님팬츠';
+        pts[5] = '버뮤다 팬츠';
+
+        console.log(pts);
+
+        var pts_src = new Array();
+        pts_src[0] = 'https://image.msscdn.net/images/goods_img/20220411/2479844/2479844_2_500.jpg?t=20220414182447'
+        pts_src[1] = 'https://image.msscdn.net/images/goods_img/20220818/2726809/2726809_2_500.jpg?t=20220822183944'
+        pts_src[2] = 'https://static.massimodutti.net/3/photos//2022/I/0/2/p/0001/011/805/0001011805_1_1_16.jpg?t=1647853451290&impolicy=massimodutti-itxmediumhigh&imwidth=500&imformat=chrome'
+        pts_src[3] = 'https://image.msscdn.net/images/goods_img/20200406/1387193/1387193_1_500.jpg?t=20200406165010'
+        pts_src[4] = 'https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1659721517/408637_XDBK8_1000_001_100_0000_Light-.jpg'
+        pts_src[5] = 'https://cdn.jentestore.io/resource/products/484636/484636_1.jpg?_=27714579'
+
+
+        console.log(pts_src);
+
+        function arrPush2() {
+            let r_2 = Math.floor(Math.random() * 6);
+            console.log(r_2);
+            let random3 = pts[r_2];
+            let random4 = pts_src[r_2];
+            document.querySelector('#p_s').innerText.random3;
+            document.querySelector('#p_s_src').src = random4;
+            return pts[random3];
+            return pts_src[random4];
+        }
+    </script>
+
+
+    <script>
+        var sso = new Array();
+        sso[0] = '컨버스 척';
+        sso[1] = '더비슈즈';
+        sso[2] = '나이키 에어포스원';
+        sso[3] = '로퍼';
+        sso[4] = '독일군 스니커즈';
+        
+
+        console.log(sso);
+
+        var sso_src = new Array();
+        sso_src[0] = 'https://image.a-rt.com/art/product/2021/12/79706_1639978432204.jpg?shrink=580:580'
+        sso_src[1] = 'https://simage-kr.uniqlo.com/goods/31/14/07/65/438917_COL_COL09_570.jpg'
+        sso_src[2] = 'https://image.msscdn.net/images/goods_img/20211228/2284322/2284322_1_500.jpg?t=20211228111207'
+        sso_src[3] = 'https://thumbnail7.coupangcdn.com/thumbnails/remote/492x492ex/image/rs_quotation_api/mj3xilnv/cfdaa983747d43e89c2bb28db3709e7c.jpg'
+        sso_src[4] = 'https://cdn.funshop.co.kr//products/0000083973/vs_image800.jpg?1665148140'
+       
+
+        console.log(sso_src);
+
+        function arrPush3() {
+            let r_3 = Math.floor(Math.random() * 5);
+            console.log(r_3);
+            let random5 = sso[r_3];
+            let random6 = sso_src[r_3];
+            document.querySelector('#s_s').innerText.random5;
+            document.querySelector('#s_s_src').src = random6;
+            return pts[random5];
+            return pts_src[random6];
+        }
+    </script>
+
+
+
+
+
+
+
+    <hr>
+    <h3 style="color: gray;">오늘의 추천 코디</h3>
+    <hr>
+
+    <div><input type="button" value="Random" onclick="arrPush();arrPush2();arrPush3()"
+         class="btn btn-secondary btn-lg" >
+        
+    <p id="u_c"></p>
+    <img style="width: 150px ;" id="u_c_src" src="" alt="">
+
+    <p id="p_s"></p>
+    <img style="width: 150px ;" id="p_s_src" src="" alt="">
+
+    <p id="s_s"></p>
+    <img style="width: 150px ;" id="s_s_src"  src="" alt=""></div>
+
+
+</body>
+
+</html>
